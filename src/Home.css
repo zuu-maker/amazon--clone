@@ -1,0 +1,26 @@
+.home{
+     display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__banner{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -260px;
+}
+
+.home__image{
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) !important;
+    z-index: -1;
+}
+
+.home__row{
+    z-index: 1;
+    display:flex;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 30px;
+}
