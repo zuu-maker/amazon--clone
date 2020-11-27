@@ -9,19 +9,25 @@ import './App.css';
 import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout.jsx';
+import Login from './Login';
 
 function App() {
   return (
     <Router>
     <div className="app">
-    <Header/>
-    <Switch>
     
+    <Switch>
+        <Route path="/login">
+            <Login/>
+        </Route>
+
         <Route path="/checkout">
+             <Header/>
             <Checkout />
         </Route>
     
          <Route path="/">
+           <Header/>
            <Home /> 
          </Route>
     </Switch>

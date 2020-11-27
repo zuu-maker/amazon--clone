@@ -24,10 +24,12 @@ function Header() {
         {/* additinal content */}
     <div className='header__sideBar'>
 
+        <Link to="/login"  style={{ textDecoration: 'none' }}>
         <div className="header__sideBarContent">
           <p>Hello, User</p>
           <p className="header__contentBottom">Accounts</p>
         </div>
+        </Link>
         
         <div className="header__sideBarContent">
          <p>Returns</p>
